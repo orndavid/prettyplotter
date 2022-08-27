@@ -1,0 +1,14 @@
+[metadata]
+name = prettyplotter
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[options]
+install_requires = 
+  matplotlib == 3.5.3
+  pandas  == 1.4.3
+
+[options.extras_require]
+test = pytest == 7.1.2
